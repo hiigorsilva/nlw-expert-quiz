@@ -1,76 +1,57 @@
 const perguntas = [
   {
-    pergunta: "O que é JavaScript?",
-    respostas: [
-      "Uma linguagem de programação de front-end.",
-      "Uma linguagem de marcação.",
-      "Uma linguagem de programação de back-end.",
-    ],
-    correta: 0,
+    pergunta: "Qual seleção ganhou o primeiro campeonato mundial de futebol?",
+    respostas: ["Uruguai", "Brasil", "Argentina"],
+    correta: 0, // Índice da resposta correta
   },
   {
-    pergunta:
-      "Qual é a sintaxe correta para comentários de uma única linha em JavaScript?",
-    respostas: [
-      "// Este é um comentário de uma linha",
-      "/* Este é um comentário de uma linha */",
-      "<!-- Este é um comentário de uma linha -->",
-    ],
-    correta: 1,
-  },
-  {
-    pergunta: "Como você declara uma variável em JavaScript?",
-    respostas: ["variable x;", "var x;", "v x;"],
-    correta: 1,
-  },
-  {
-    pergunta: "Qual é o operador de atribuição em JavaScript?",
-    respostas: ["=", "==", ":"],
-    correta: 0,
-  },
-  {
-    pergunta:
-      "Qual é o método em JavaScript usado para imprimir algo no console?",
-    respostas: ["print()", "console.log()", "log()"],
+    pergunta: "Qual jogador é conhecido como 'Rei do Futebol'?",
+    respostas: ["Lionel Messi", "Diego Maradona", "Pelé"],
     correta: 2,
   },
   {
-    pergunta: "Qual é a função da declaração 'return' em JavaScript?",
-    respostas: [
-      "Encerrar o loop atual.",
-      "Retornar um valor de uma função.",
-      "Definir uma condição.",
-    ],
+    pergunta: "Em que país nasceu o futebol moderno?",
+    respostas: ["Brasil", "Alemanha", "Inglaterra"],
+    correta: 2,
+  },
+  {
+    pergunta: "Quantas vezes a seleção brasileira ganhou a Copa do Mundo?",
+    respostas: ["5 vezes", "6 vezes", "7 vezes"],
+    correta: 1,
+  },
+  {
+    pergunta: "Qual é o clube com mais títulos de Liga dos Campeões da UEFA?",
+    respostas: ["Real Madrid", "FC Barcelona", "Bayern de Munique"],
+    correta: 0,
+  },
+  {
+    pergunta:
+      "Qual é o único jogador a ganhar três Copas do Mundo como jogador?",
+    respostas: ["Pelé", "Maradona", "Cristiano Ronaldo"],
+    correta: 0,
+  },
+  {
+    pergunta:
+      "Qual é o clube brasileiro com mais títulos da Copa Libertadores da América?",
+    respostas: ["Santos", "Grêmio", "Palmeiras"],
+    correta: 0,
+  },
+  {
+    pergunta:
+      "Qual jogador detém o recorde de mais gols marcados em uma única edição da Copa do Mundo?",
+    respostas: ["Ronaldo Fenômeno", "Just Fontaine", "Gerd Müller"],
     correta: 1,
   },
   {
     pergunta:
-      "Qual é o tipo de dado que representa valores verdadeiros ou falsos em JavaScript?",
-    respostas: ["boolean", "string", "number"],
-    correta: 0,
-  },
-  {
-    pergunta: "O que o método 'toFixed()' faz em JavaScript?",
-    respostas: [
-      "Arredonda um número para o inteiro mais próximo.",
-      "Formata um número com um número específico de casas decimais.",
-      "Remove casas decimais de um número.",
-    ],
-    correta: 2,
-  },
-  {
-    pergunta: "Qual é a função do operador 'typeof' em JavaScript?",
-    respostas: [
-      "Determinar o tipo de dado de uma variável.",
-      "Comparar dois valores.",
-      "Executar uma função.",
-    ],
+      "Quem venceu o prêmio de melhor jogador do mundo da FIFA em 2021?",
+    respostas: ["Lionel Messi", "Cristiano Ronaldo", "Robert Lewandowski"],
     correta: 0,
   },
   {
     pergunta:
-      "Qual é a palavra-chave usada para declarar uma função em JavaScript?",
-    respostas: ["function", "func", "def"],
+      "Qual é o único país a ter vencido a Copa do Mundo em quatro continentes diferentes?",
+    respostas: ["Brasil", "Argentina", "Itália"],
     correta: 0,
   },
 ]
